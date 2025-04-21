@@ -10,7 +10,7 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "^7.9",
-        "symfony/dom-crawler":"^7.2",
+        "symfony/dom-crawler": "^7.2",
         "symfony/css-selector": "^7.2"
     },
     "autoload": {
@@ -25,17 +25,17 @@
         "phpunit/phpunit": "^12.1",
         "squizlabs/php_codesniffer": "*",
         "phan/phan": "^5.4"
-    }, 
-    "scripts": {
-    "cs": "phpcs --standard=PSR12 src/",
-    "phan": "phan --allow-polyfill-parser",
-    "check": [
-        "@cs",
-        "phan"
-    ]
     },
-    
-        "scripts-descriptions": {
-            "check": "Roda todas as verificações de código CS e PHAN"
-        }
+    "scripts": {
+        "cs": "phpcs --standard=PSR12 src/",
+        "phan": "phan --allow-polyfill-parser",
+        "check": [
+            "@cs",
+            "phan"
+        ]
+    },
+    "scripts-descriptions": {
+        "check": "Roda todas as verificações de código CS e PHAN"
+    },
+    "license": "GPL-3.0"
 }
