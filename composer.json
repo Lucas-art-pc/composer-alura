@@ -37,5 +37,6 @@
     "scripts-descriptions": {
         "check": "Roda todas as verificações de código CS e PHAN"
     },
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
+    "bin": "buscar-cursos.php"
 }
